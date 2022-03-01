@@ -119,7 +119,7 @@ padding-right: 5vw;
 }
 
 .contenitore-2 div{
-    width: calc((100% / 2) - 20px);
+    width: calc((100% / 2));
     padding: 10px;
     text-align: center;
 }
