@@ -57,7 +57,7 @@ nav{
 
 /* SECTION 1 */
 
-section{
+.contenitore-1{
     position: relative;
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
@@ -82,15 +82,44 @@ section{
 
 .s1-2-1, .s1-3-1, .s1-4-1{
     color: white;
+    text-decoration: none;
 }
 
 .s1-3{
 padding-right: 5vw;
 }
 
-.s1-4-1{
+.s1-4{
     background-color: #CD3D0F;
-    text-decoration: none;
+
     padding: 10px 15px 10px 15px;
     border-radius: 50px;
+    width: fit-content;
+}
+
+/* FIXME da mettere a posto il doppio bordo */
+.s1-4:hover{
+    border: 5px double #CD3D0F;
+    color: white;
+}
+
+/* !SECTION 1 end */
+
+/* SECTION 2 */
+.contenitore-2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.contenitore-2 div>img{
+    width: calc((100% / 2) - 20px);
+}
+
+.contenitore-2 div{
+    width: calc((100% / 2) - 20px);
+    padding: 10px;
+    text-align: center;
 }
