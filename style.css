@@ -56,19 +56,20 @@ nav{
 /* !SECTION Nav fine */
 
 /* SECTION 1 */
-
+/* FIXME Posizionare più il alto il .contenitore-1 */
 .contenitore-1{
     position: relative;
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
-    height: 1300px;
+    height: 1000px;
     background-repeat: no-repeat;
+    /* margin-top: -50px; */
 }
 .s1{
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 600px;
+    top: 500px;
     left: 5vw;
 }
 
@@ -80,7 +81,7 @@ nav{
     width: 300px;
 }
 
-.s1-2-1, .s1-3-1, .s1-4-1{
+.s1-2-1, .s1-3-1, .s1-4-1, .s3-6-1{
     color: white;
     text-decoration: none;
 }
@@ -91,7 +92,6 @@ padding-right: 5vw;
 
 .s1-4{
     background-color: #CD3D0F;
-
     padding: 10px 15px 10px 15px;
     border-radius: 50px;
     width: fit-content;
@@ -112,14 +112,54 @@ padding-right: 5vw;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
+    padding:10px;
+    margin-top: 5px;
 }
-
+/* FIXME da mettere a posto il bordo delle immagini */
 .contenitore-2 div>img{
-    width: calc((100% / 2) - 20px);
+    width: 250px;
+    clip-path: border-box(100%);
 }
 
+/* FIXME da aggiungere l'Hover */
 .contenitore-2 div{
-    width: calc((100% / 2));
+    width: calc((100% / 2) - 10px);
     padding: 10px;
     text-align: center;
+}
+/* !SECTION 2 end */
+
+/* SECTION 3 */
+.sezione-3{
+    padding: 15px;
+}
+
+.s3-margine{
+    text-align: center;
+}
+
+.s3-1{
+    color: #0072CE;
+    font-weight: 500;
+}
+
+.s3-2,
+.s3-4{
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.s3-3,
+.s3-5{
+    font-size: 1.5em;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+/* FIXME Manca Hover */
+.s3-6{
+    background-color: #2D64E6;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+    width: fit-content;
 }
