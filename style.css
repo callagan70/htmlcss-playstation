@@ -525,3 +525,52 @@ padding-right: 5vw;
         height: 200px;
         padding: 10px;
     }
+/* !SECTION 12 end */
+
+/* SECTION 13 */
+.sezione-13{
+    padding: 15px;
+    background-color: #00439C;
+}
+
+    .s13-1{
+        padding-top: 64px;
+    }
+
+    .s13-1-1 img{
+        width: 125px;
+    }
+
+    .s13-1-2 img{
+        width: 25px;
+    }
+
+    .s13-1-2{
+        margin-top: 48px;
+
+    }
+
+    .s13-1-3{
+        color: white;
+        margin-left: 16px;
+    }
+
+    .s13-2-1 a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .s13-2-1 li{
+        margin: 0.5em;
+        list-style-type: none;
+    }
+
+    .s13-3-1{
+        margin-top: 64px;
+        width: 200px;
+        margin-bottom: 16px;
+    }
+
+    .s13-4-1{
+        color: white;
+    }
