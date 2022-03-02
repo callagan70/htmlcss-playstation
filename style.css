@@ -392,3 +392,38 @@ padding-right: 5vw;
             color: white;
             text-decoration: none;
         }
+/* !SECTION 8 end */
+
+/* SECTION 9 */
+.sezione-9{
+    padding: 15px;
+    background-color: #BEBCBB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+    .s9-1 div>img{
+        width: 50vw;
+    }
+
+    .s9-1 div:nth-child(2){
+        padding-top: 32px;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .s9-1 div:nth-child(3){
+        margin-top: 32px;
+        background-color: #D9DADC;
+        width: fit-content;
+        padding: 10px 20px 10px 20px;
+        border-radius: 50px;
+    }
+
+    .s9-1 div:nth-child(3)>a{
+        text-decoration: none;
+        font-weight: 500;
+    }
+/* !SECTION 9 end */
+
+/* SECTION 10 */
