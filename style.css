@@ -2,12 +2,12 @@
 *{Padding: 0;
     Margin: 0;
     Box-sizing: border-box}
-         
+
   .clearfix::after{
    content: "";
    display: table;
    clear: both;}
-     
+
   html {
    scroll-behavior: smooth;}
    /* Fine Utility */
@@ -228,7 +228,7 @@ padding-right: 5vw;
                 .s5-4-1:hover{
                     opacity: 1;
                 }
-    
+
             .s5-5:hover{
                     border-bottom: 2px solid #2D64E6;
             }
@@ -236,7 +236,7 @@ padding-right: 5vw;
                         opacity: 1;
                 }
 /* !SECTION 5 end */
-                 
+
 /* SECTION 6 */
 .sezione-6{
     position: relative;
@@ -492,4 +492,36 @@ padding-right: 5vw;
 /* !SECTION 11 end */
 
 /* SECTION 12 */
+.sezione-12{
+    padding: 48px 15px 48px 15px;
+    /* height: 650px; */
+}
 
+    .s12-titolo{
+        font-size: 2em;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 2em;
+    }
+
+    .s12-1{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+/* FIXME Aggiungere un po di margin altrimenti perde responsiv */
+    .s12-1-1 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 76%;
+        height: auto;
+    }
+
+    .s12-1-1{
+        display: block;
+        /* border: 1px solid black; */
+        width: calc((100% / 2) - 10px);
+        height: 200px;
+        padding: 10px;
+    }
