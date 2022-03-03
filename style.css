@@ -56,20 +56,21 @@ nav{
 /* !SECTION Nav fine */
 
 /* SECTION 1 */
-/* FIXME Posizionare più il alto il .contenitore-1 */
 .contenitore-1{
+    display: block;
     position: relative;
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
-    height: 1000px;
+    height: 875px;
     background-repeat: no-repeat;
+    /* margin-top: 300px; */
 }
 
 .s1{
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 500px;
+    top: 45%;
     left: 5vw;
 }
 
@@ -98,7 +99,6 @@ padding-right: 5vw;
     border: 5px double #CD3D0F;
     color: white;
 }
-
 /* !SECTION 1 end */
 
 /* SECTION 2 */
@@ -108,21 +108,27 @@ padding-right: 5vw;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    padding:10px;
-    margin-top: 5px;
-}
-/* FIXME da mettere a posto il bordo delle immagini */
-.contenitore-2 div>img{
-    width: 250px;
-    clip-path: border-box(100%);
+    padding: 15px;
+    margin-top: -80px;
 }
 
-/* FIXME da aggiungere l'Hover */
+.contenitore-2 div>img{
+    display: block;
+    margin:0px auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
 .contenitore-2 div{
     width: calc((100% / 2) - 10px);
     padding: 10px;
-    text-align: center;
 }
+FIXME Finezza, dimensionare meglio il bordo in :hover
+.s2-1:hover {
+    border: 5px solid #0072CE;
+    border-radius: 20px;
+}
+
 /* !SECTION 2 end */
 
 /* SECTION 3 */
@@ -181,23 +187,25 @@ padding-right: 5vw;
     flex-wrap: wrap;
     justify-content: start;
     padding: 15px;
-    /* margin: auto; */
-
 }
 
 .sezione-5 div>img{
-    width: 125px;
+    width: 100%;
+    display:block;
+    margin: 0px auto;
 }
 
 .s5-1-1, .s5-2-1, .s5-3-1, .s5-4-1, .s5-5-1{
     opacity: 0.5;
 }
-/* FIXME centrare immagine con il testo */
+
 .sezione-5 div{
     padding: 5px;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
+    width: calc(100% / 3);
+}
+
+.sezione-5>div>div{
+    display: none;
 }
 
 /* FIXME Provare a fare HOVER con animation */
@@ -302,22 +310,31 @@ padding-right: 5vw;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px
+    padding: 20px;
+    /* border: 3px solid red; */
+    height: auto;
 }
 
-.s7-2>div{
-    width: calc(100 / 2);
+.s7-2-a{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: calc((100% / 2) - 10px);
     height: 270px;
     padding: 10px;
     /* border: 1px solid orange; */
-    margin: 10px;
+    /* margin: 10px; */
 }
 
-.s7-2>div>img{
-   width: 200px;
+.s7-2-1 img{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    border-radius: 20px;
 }
 
 .s7-2>div>div{
+    display: block;
     color: white;
     font-size: 1em;
     width: 200px;
@@ -358,11 +375,9 @@ padding-right: 5vw;
     padding: 15px;
 }
 
-
 .s8-a-1{
     padding-bottom: 40px;
 }
-
 
     .s8-a-1-2>p:first-child{
         font-size: 3em;
