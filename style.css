@@ -30,30 +30,14 @@ header{
 
 .h-1-1{
     width: fit-content;
+    padding-right: 20px;
 }
 
 .h-1-1-logo{
     width: 75px;
+
 }
 /* !SECTION  */
-
-/* SECTION Nav */
-nav{
-    position: fixed;
-    width: 100vw;
-    height: fit-content;
-    top: 50px;
-    background-color: white;
-    z-index: 1;
-}
-
-.nav-1{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 3vw;
-    margin-right: 3vw;
-}
-/* !SECTION Nav fine */
 
 /* SECTION 1 */
 .contenitore-1{
@@ -61,7 +45,7 @@ nav{
     position: relative;
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
-    height: 875px;
+    height: 900px;
     background-repeat: no-repeat;
     /* margin-top: 300px; */
 }
@@ -123,9 +107,10 @@ padding-right: 5vw;
     width: calc((100% / 2) - 10px);
     padding: 10px;
 }
-FIXME Finezza, dimensionare meglio il bordo in :hover
+/* FIXME Finezza, dimensionare meglio il bordo in :hover */
+
 .s2-1:hover {
-    border: 5px solid #0072CE;
+    border: 2px solid #0072CE;
     border-radius: 20px;
 }
 
@@ -416,6 +401,9 @@ FIXME Finezza, dimensionare meglio il bordo in :hover
     padding-top: 50px;
     padding-bottom: 50px;
 }
+    .s9-2{
+        display: none;
+    }
 
     .s9-1 div>img{
         width: 50vw;
@@ -588,3 +576,125 @@ FIXME Finezza, dimensionare meglio il bordo in :hover
     .s13-4-1{
         color: white;
     }
+
+@media only screen and (min-width: 576px){
+    
+    .contenitore-2 div{
+        width: calc((100% / 3) - 10px);
+    }
+
+    .s7-2-a{
+        width: calc((100% / 3) - 10px);
+    }
+    
+    .s10-1 div:first-child{
+        font-size: 2.7em;
+    }
+
+    .s10-1 div:nth-child(2){
+        font-size: 1.5em;
+    }
+
+    .s12-1-1 img {
+        width: 100%;
+    }
+
+    .s12-1-1 {
+        width: calc(100% / 4);
+    }
+}
+
+@media only screen and (min-width: 768px){
+
+    /* .contenitore-2{
+        background-color: black;
+    } */
+
+    .s4-1{
+        display: flex;
+    }
+
+    .s4-3-1 {
+        max-width: 50vw;
+        height: auto;
+    }
+
+    .sezione-5 div {
+        padding: 5px;
+        width: calc(100% / 5);
+    }
+
+    .sezione-5>div>div {
+        width: auto;
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    /* .s8-a-1-1-a{
+        display: none;
+    } */
+
+/* FIXME controllare la posizione del testo nella sezione bassa s8 */
+
+    .s8-a-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        width: calc(100% / 3);   
+    }
+
+    .s8-a-1-2>p:first-child {
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    .s8-a-1-2>div {
+        font-size: 1.3em;
+        opacity: 0.8;
+    }
+
+    .sezione-9{
+        display: flex;
+        justify-content: center;
+    }
+
+    .s9-2{
+        display: block;
+    }
+
+    .s9-2 img{
+        width: 100%;}
+
+    .sezione-9 {
+        padding: 0px;
+        background-color: #BEBCBB;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .s9-1{
+        padding: 25px;
+    }
+
+    .s9-1 div>img {
+        width: 32vw;
+    }
+
+    .s10-2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 32px;
+        /* background-color: black;        */
+    }
+
+    .s10-2-1{
+        width: calc((100% / 3) - 10px);
+    }
+
+    .s10-2 div:nth-child(2){
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
