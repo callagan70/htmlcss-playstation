@@ -186,14 +186,15 @@ padding-right: 5vw;
 
 .sezione-5 div{
     padding: 5px;
-    width: calc(100% / 3);
-}
+    width: calc(100% / 3);}
+
 
 .sezione-5>div>div{
     display: none;
-}
+ }
 
 /* FIXME Provare a fare HOVER con animation */
+
 
             .s5-1:hover{
                 border-bottom: 2px solid #2D64E6;
@@ -271,7 +272,7 @@ padding-right: 5vw;
 /* SECTION 7 */
 /* FIXME Bordare le immagini */
 .s7{
-    background-color: black;
+    background-color: #1F1F1F;
 }
 
 .s7-1{
@@ -468,6 +469,13 @@ padding-right: 5vw;
     background-color: #161C3B;
 }
 
+.s11-1{
+    padding: 0px 25px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .s11-2{
     display: none;
 }
@@ -514,22 +522,20 @@ padding-right: 5vw;
     .s12-1{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center}
 
-    }
 /* FIXME Aggiungere un po di margin altrimenti perde responsiv */
     .s12-1-1 img{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0px auto;
         width: 76%;
-        height: auto;
+        /* height: auto; */
     }
 
     .s12-1-1{
         display: block;
-        /* border: 1px solid black; */
         width: calc((100% / 2) - 10px);
-        height: 200px;
+        height: auto;
         padding: 10px;
     }
 /* !SECTION 12 end */
@@ -673,7 +679,10 @@ padding-right: 5vw;
     }
 
     .s9-1{
-        padding: 25px;
+        padding: 0px 25px 0px 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .s9-1 div>img {
@@ -724,6 +733,46 @@ padding-right: 5vw;
         padding-left: 100px;
         padding-right: 100px;
     }
+}
+
+@media only screen and (min-width: 1200px){
+    
+    .contenitore-2 div {
+        width: calc((100% / 6) - 10px);}
+
+    .s7-2-a {
+        width: calc((100% / 6) - 10px);}
+
+    .s8-a {
+        padding: 15px 32px 15px 32px;
+    }
+
+    .s13-1-a{
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
