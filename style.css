@@ -26,6 +26,11 @@ header{
     height: 50px;
     justify-content: end;
     align-items: center;
+    padding: 0px 32px 0px 20px;
+}
+
+.h1-a{
+    padding-right: 32px;
 }
 
 .h-1-1{
@@ -45,11 +50,11 @@ header{
     position: relative;
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
-    /* background-size: cover; */
-    height: 900px;
-    /* width: 100vw; */
+    background-size: cover;
+    height: 700px;
+    width: 100vw;
+    top: 100px;
     background-repeat: no-repeat;
-    /* margin-top: 300px; */
 }
 
 .s1{
@@ -95,7 +100,8 @@ padding-right: 5vw;
     flex-wrap: wrap;
     align-content: center;
     padding: 15px;
-    margin-top: -80px;}
+    margin-top: 100px;
+}
 
 .contenitore-2 div>img{
     display: block;
@@ -222,13 +228,15 @@ padding-right: 5vw;
     position: relative;
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     height: 630px;
+    background-size: auto;
     background-position:center;
     background-repeat: no-repeat;
-    background-size: 300%;}
+    /* background-size: 300%; */
+}
 
     .s6-1{
         position: absolute;
-        left: 5vw;
+        left: 5%;
         top: 85px;}
 
         .s6-1-1>img{
@@ -514,6 +522,7 @@ padding-right: 5vw;
 
     .s13-4-1{
         color: white;}
+/* !SECTION 13 end */
 
 /* SECTION @media 576px  */
 @media only screen and (min-width: 576px){
@@ -535,6 +544,7 @@ padding-right: 5vw;
 
     .s12-1-1 {
         width: calc(100% / 4);} }
+/* !SECTION @media 576px end */
 
 /* SECTION @media 768px  */
 @media only screen and (min-width: 768px){
@@ -632,6 +642,8 @@ padding-right: 5vw;
     .s13-2 div:nth-child(2){
         padding-left: 100px;
         padding-right: 100px;} }
+/* !SECTION @media 768px end */
+
 /* SECTION @media 1200px  */
 @media only screen and (min-width: 1200px){
     
@@ -647,7 +659,7 @@ padding-right: 5vw;
     .s13-1-a{
         display: flex;
         justify-content: space-between;}
-
+/* !SECTION @media 1200px end */
 
 
 
