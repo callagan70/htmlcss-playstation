@@ -56,7 +56,7 @@ padding-top: 0.5em;;
     background-position: center;
     background-size: cover;
     height: 700px;
-    width: 100vw;
+    width: 100%;
     top: 100px;
     background-repeat: no-repeat;
 }
@@ -196,7 +196,9 @@ padding-right: 5vw;
 
 
             .s5-1:hover{
-                border-bottom: 2px solid #2D64E6;}
+                border-bottom: 2px solid #2D64E6;
+                /* border-style: inset; */
+            }
 
                 .s5-1-1:hover{
                     opacity: 1;}
@@ -237,7 +239,7 @@ padding-right: 5vw;
     background-position:center;
     background-size: cover;
     height: 700px;
-    width: 100vw;
+    width: 100%;
     background-repeat: no-repeat;}
 
     .s6-1{
@@ -480,7 +482,7 @@ padding-right: 5vw;
     padding: 48px 15px 48px 15px;}
 
     .s12-titolo{
-        font-size: 2em;
+        font-size: 3em;
         font-weight: 500;
         text-align: center;
         padding-bottom: 2em;}
@@ -553,7 +555,7 @@ padding-right: 5vw;
 }
 .firma div:nth-child(2){
     color: #CD3D0F;
-    margin: 16px;
+    margin: 5px;
     font-size: 3em;
 }
 
@@ -699,6 +701,10 @@ padding-right: 5vw;
 @media only screen and (min-width: 1200px){
     .button-flex:{
         padding-top: 0px;}
+
+    .s1{
+        width: 40%;
+    }
 
     .contenitore-2 div {
         width: calc((100% / 6) - 10px);}
